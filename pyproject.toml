@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "SAMfIS - Segment Anything Model for Image Segmentation"
+version = "0.0.1"
+description = ""
+authors = ["mbhansali@atheerair.com"]
+readme = ""
+
+[tool.poetry.dependencies]
+python = ">=3.10.10,<3.11.0"
+streamlit = "1.33.0"
+numpy = "1.23.5"
+torch = "2.3.0"
+torchvision = "0.18.0"
+matplotlib = "3.8.4"
+streamlit-drawable-canvas = "0.9.3"
+Pillow = "10.3.0"
+pandas = "2.2.2"
+supervision = "0.20.0"
+segment-anything = "1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
